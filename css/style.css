@@ -151,7 +151,10 @@ div.gallery img {
 div.desc {
     position: absolute;
     bottom: 0px;
-    margin-left: 30%;
+    background-color: red;
+    left: 3px;
+    width: 98%;
+    text-align-last: center;
 }
 div.descriptionspace {
     margin-top: 30px;
