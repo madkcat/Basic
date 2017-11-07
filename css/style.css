@@ -184,6 +184,7 @@ div.descriptionspace {
 }
 .test label {
   font: 200 15px;
+  color: #ebebeb;
 }
 
 .test input[type=text],
@@ -211,7 +212,6 @@ input[type=text].icon {
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
-  background-image: url('searchicon.png');
   background-position: 10px 13px;
   background-repeat: no-repeat;
   padding-left: 42px;
@@ -237,4 +237,9 @@ input[type=text].icon {
 .test input[type=text]:focus,
 .test select:focus {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+input.message {
+    min-height: 300px;
+    overflow-wrap: 250px;
 }
