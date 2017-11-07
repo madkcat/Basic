@@ -2,8 +2,6 @@
 * Style sheet for easy homework assignment
 **/
 
-
-
 body {
     align-content: center;
     color: #777777;
@@ -14,11 +12,8 @@ body {
     margin-right: auto;
     line-height: 30px;
 }
-
-header nav ul li section{
-
-}
-header  {
+header nav ul li section {}
+header {
     float: left;
     background-color: #4aaaa5;
     border-bottom: none;
@@ -27,10 +22,7 @@ header  {
     width: 210px;
     margin-left: 120px;
     font-size: 1.5em;
-
 }
-
-
 nav {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 12px;
@@ -39,20 +31,14 @@ nav {
     text-align: center;
     margin-right: 120px;
 }
-
 ul {
     list-style: none;
 }
-
 li {
     float: left;
     width: 15%;
 }
-
-
-
-section
-{
+section {
     float: left;
     width: 610px;
     margin-left: 120px;
@@ -65,41 +51,30 @@ section
     position: relative;
     height: auto;
 }
-
-article
-{
+article {
     position: relative;
     display: block;
     width: 570x;
     height: auto;
-
     color: #ebebeb;
     background: #ffffff;
 }
-
-img{ 
+img {
     float: left;
 }
-
-h3
-{   
+h3 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 100%;
     color: #777;
     background: #ffffff;
 }
-
-p
-{
+p {
     margin: 12px 12px 0 12px;
     padding: 12px 0;
-
     color: #777;
     background: #ffffff;
 }
-
-aside
-{
+aside {
     float: left;
     width: 270px;
     margin-top: 35px;
@@ -110,14 +85,12 @@ aside
     clear: all;
     padding: 20px 20px 20px 20px;
 }
-
 .header-container {
     max-width: 1200px;
     min-width: 960px;
     border-bottom: 2px solid #cccccc;
     background-color: #ffffff;
     height: 60px;
-
 }
 #YourName {
     position: relative;
@@ -126,10 +99,7 @@ aside
     width: 100%;
     text-align: center;
 }
-
-
-.floating-footer
-{
+.floating-footer {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     clear: both;
     position: sticky;
@@ -140,36 +110,29 @@ aside
     background: #666666;
     border-top: 5px solid #cccccc;
 }
-
 .aboutme {
     font-size: 1.5em;
     color: #4aaaa5;
 }
-
 .connectwithme {
     text-align: center;
     font-size: 1.2em;
     color: #4aaaa5;
 }
-
-.cwm{
+.cwm {
     margin-left: 15px;
 }
-
 .abarticle {
     padding: 12px;
 }
-
 .particle {
     padding: 0px;
 }
-
 .portfolio {
     font-size: 1.5em;
-    color: #4aaaa5; 
+    color: #4aaaa5;
     height: auto;
 }
-
 .gallery {
     float: left;
     position: relative;
@@ -177,40 +140,101 @@ aside
     padding: 2px;
     display: block;
 }
-
 div.gallery:hover {
-    border-color: #777;}
-
+    border-color: #777;
+}
 div.gallery img {
     width: 200px;
-    border:1px solid white;
+    border: 1px solid white;
     float: left;
 }
-
 div.desc {
     position: absolute;
-    bottom:0px;
-    margin-left: 40%;
+    bottom: 0px;
+    margin-left: 30%;
 }
-
 div.descriptionspace {
     margin-top: 30px;
     position: sticky;
-    bottom:0px;
+    bottom: 0px;
     left: 40%;
     width: 100%
 }
-
 * {
     box-sizing: border-box;
 }
-
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
-
-.amarticle{
+.amarticle {
     left: 0px;
+}
+
+.contactheader {
+
+    font-size: 1.5em;
+    color: #4aaaa5;
+    height: auto;
+}
+
+.contact {
+    left: 0px;
+}
+.test label {
+  font: 200 15px;
+}
+
+.test input[type=text],
+.test select {
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+input[type=text].icon {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 13px;
+  background-repeat: no-repeat;
+  padding-left: 42px;
+}
+
+.test input[type=button], .test .button {
+  width: 100%;
+  text-align:center;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 14px 0 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px #ddd;
+}
+
+.test input[type=button]:hover, .test .button:hover {
+  background-color: #45a049;
+}
+
+.test input[type=text]:focus,
+.test select:focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
 }
